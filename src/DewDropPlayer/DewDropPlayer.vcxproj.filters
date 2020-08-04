@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="UI">
+      <UniqueIdentifier>{28e17eff-5af2-4b6f-ad4e-67d4f980ffb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{70806689-3f66-44f9-b55b-13a122facc18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{527419ba-f063-4678-ae66-3b138ef35520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Headers">
+      <UniqueIdentifier>{f45f998e-9ddc-4bcc-bdf2-cb9feb7c34ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sources">
+      <UniqueIdentifier>{4fb31009-0c56-4553-9d11-e48a40dc911e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Headers">
+      <UniqueIdentifier>{824dd452-1ddc-4a49-8c74-601b4fdcfc20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Sources">
+      <UniqueIdentifier>{5980e819-1a70-46ec-b801-9c3d71e3167e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Resources">
+      <UniqueIdentifier>{3a839aa5-030e-4104-b13c-c450ff0a01b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\DewCommon.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\AACEngine.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\AC3Engine.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\AIFFEngine.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ALACEngine.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\APEEngine.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\AudioFactory.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CDDAEngine.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FLACEngine.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\IAudioEngine.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ISOMEngine.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ISOMToOggVorbis.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\MIDIEngine.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\MP3Engine.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\MPCEngine.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\OPUSEngine.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TagInfo.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\VORBISEngine.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\WAVEngine.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\WaveOutEngine.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\WMAEngine.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\WVEngine.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewAlbumArt.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewButton.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewButtonBrowse.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewButtonClose.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewButtonDewMode.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewButtonDMPlayPause.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewButtonExInfo.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewButtonMinimize.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewButtonNext.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewButtonPlaylist.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewButtonPlayPause.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewButtonPrev.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewButtonRepeat.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewButtonSettings.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewButtonStop.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewButtonTimer.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewButtonVolume.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewDiscSelector.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewDropApp.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewDropPlayerResource.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewIconRepository.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewInfoLabel.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewLayoutViewer.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewPlaylist.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewPlaylistExporter.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewPlaylistParser.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewPropertyPage.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewSeekbar.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewSettings.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewShutdownTimer.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewStartup.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewSymbolFont.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewTheme.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewUICommon.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewUIObject.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewUpDownControl.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewWindow.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DewAboutWindow.h">
+      <Filter>UI\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\AACEngine.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\AC3Engine.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\AIFFEngine.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ALACEngine.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\APEEngine.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\AudioFactory.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CDDAEngine.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FLACEngine.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\IAudioEngine.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ISOMEngine.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ISOMToOggVorbis.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\MIDIEngine.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\MP3Engine.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\MPCEngine.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\OPUSEngine.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TagInfo.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\VORBISEngine.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\WAVEngine.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\WaveOutEngine.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\WMAEngine.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\WVEngine.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewAlbumArt.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewButton.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewButtonBrowse.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewButtonClose.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewButtonDewMode.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewButtonDMPlayPause.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewButtonExInfo.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewButtonMinimize.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewButtonNext.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewButtonPlaylist.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewButtonPlayPause.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewButtonPrev.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewButtonRepeat.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewButtonSettings.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewButtonStop.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewButtonTimer.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewButtonVolume.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewDiscSelector.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewDropApp.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewIconRepository.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewInfoLabel.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewLayoutViewer.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewPlaylist.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewPlaylistExporter.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewPlaylistParser.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewPropertyPage.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewSeekbar.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewSettings.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewSettingsUI.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewShutdownTimer.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewStartup.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewSymbolFont.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewTheme.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewUIObject.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewUpDownControl.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewWindow.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DEW.cpp" />
+    <ClCompile Include="UI\DewWindowEngineInteraction.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DewAboutWindow.cpp">
+      <Filter>UI\Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UI\res\DewDropPlayerResource.rc">
+      <Filter>UI\Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

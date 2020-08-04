@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="DEPENDENCY: DewDropPlayer.UI">
+      <UniqueIdentifier>{a8d9ad4d-21c9-4921-9b19-55f158bab953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DEPENDENCY: DewDropPlayer.UI\Sources">
+      <UniqueIdentifier>{17edf867-2f20-4780-8a60-ecfc9d65abc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DEPENDENCY: DewDropPlayer.UI\Headers">
+      <UniqueIdentifier>{89250eca-b97a-408c-9769-36ddcc18ec5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DewDropThemerCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DewDropThemerResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThemePasswordWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThemerAboutWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThemerWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewAlbumArt.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewButton.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonBrowse.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonClose.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonDewMode.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonDMPlayPause.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonExInfo.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonMinimize.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonNext.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonPlaylist.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonPlayPause.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonPrev.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonRepeat.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonSettings.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonStop.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonTimer.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonVolume.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewDiscSelector.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewDropPlayerResource.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewIconRepository.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewInfoLabel.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewLayoutViewer.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewPlaylist.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewPlaylistExporter.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewPlaylistParser.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewPropertyPage.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewSeekbar.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewSettings.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewShutdownTimer.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewStartup.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewSymbolFont.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewTheme.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewUICommon.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewUIObject.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewUpDownControl.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DewDropPlayer\UI\DewWindow.h">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThemePasswordWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThemerAboutWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThemerWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewAlbumArt.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewButton.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonBrowse.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonClose.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonDewMode.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonDMPlayPause.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonExInfo.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonMinimize.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonNext.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonPlaylist.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonPlayPause.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonPrev.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonRepeat.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonSettings.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonStop.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonTimer.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonVolume.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewDiscSelector.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewIconRepository.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewInfoLabel.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewLayoutViewer.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewPlaylist.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewPlaylistExporter.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewPlaylistParser.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewPropertyPage.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewSeekbar.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewSettings.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewSettingsUI.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewShutdownTimer.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewStartup.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewSymbolFont.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewTheme.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewUIObject.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewUpDownControl.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DewDropPlayer\UI\DewWindow.cpp">
+      <Filter>DEPENDENCY: DewDropPlayer.UI\Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res\DewDropThemerResource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

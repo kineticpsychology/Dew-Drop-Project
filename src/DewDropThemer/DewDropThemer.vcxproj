@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{1B606059-F3D5-44C8-8767-68E9E92585C1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DewDropThemer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)_BUILDS\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)_Temp_Objects\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)_BUILDS\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)_Temp_Objects\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>DEW_THEMER_MODE;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>DewDropThemer.manifest</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>DEW_THEMER_MODE;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>del /f $(SolutionDir)_BUILDS\$(Configuration)\*.ilk &amp; del /f $(SolutionDir)_BUILDS\$(Configuration)\*.iobj &amp; del /f $(SolutionDir)_BUILDS\$(Configuration)\*.ipdb &amp; del /f $(SolutionDir)_BUILDS\$(Configuration)\*.pdb &amp; del /f /q $(ProjectDir)_Temp_Objects\$(Configuration)\* &amp; del /f /q $(ProjectDir)_Temp_Objects\$(Configuration)\$(ProjectName).tlog\*</Command>
+    </PostBuildEvent>
+    <Manifest>
+      <AdditionalManifestFiles>DewDropThemer.manifest</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\DewDropPlayer\UI\DewAlbumArt.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewButton.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonBrowse.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonClose.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonDewMode.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonDMPlayPause.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonExInfo.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonMinimize.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonNext.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonPlaylist.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonPlayPause.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonPrev.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonRepeat.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonSettings.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonStop.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonTimer.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewButtonVolume.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewDiscSelector.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewDropPlayerResource.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewIconRepository.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewInfoLabel.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewLayoutViewer.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewPlaylist.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewPlaylistExporter.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewPlaylistParser.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewPropertyPage.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewSeekbar.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewSettings.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewShutdownTimer.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewStartup.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewSymbolFont.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewTheme.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewUICommon.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewUIObject.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewUpDownControl.h" />
+    <ClInclude Include="..\DewDropPlayer\UI\DewWindow.h" />
+    <ClInclude Include="DewDropThemerCommon.h" />
+    <ClInclude Include="DewDropThemerResource.h" />
+    <ClInclude Include="ThemePasswordWindow.h" />
+    <ClInclude Include="ThemerAboutWindow.h" />
+    <ClInclude Include="ThemerWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\DewDropPlayer\UI\DewAlbumArt.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewButton.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonBrowse.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonClose.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonDewMode.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonDMPlayPause.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonExInfo.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonMinimize.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonNext.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonPlaylist.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonPlayPause.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonPrev.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonRepeat.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonSettings.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonStop.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonTimer.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewButtonVolume.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewDiscSelector.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewIconRepository.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewInfoLabel.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewLayoutViewer.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewPlaylist.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewPlaylistExporter.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewPlaylistParser.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewPropertyPage.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewSeekbar.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewSettings.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewSettingsUI.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewShutdownTimer.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewStartup.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewSymbolFont.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewTheme.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewUIObject.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewUpDownControl.cpp" />
+    <ClCompile Include="..\DewDropPlayer\UI\DewWindow.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ThemePasswordWindow.cpp" />
+    <ClCompile Include="ThemerAboutWindow.cpp" />
+    <ClCompile Include="ThemerWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res\DewDropThemerResource.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

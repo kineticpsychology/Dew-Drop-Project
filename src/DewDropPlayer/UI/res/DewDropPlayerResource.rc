@@ -1,0 +1,81 @@
+/*******************************************************************************
+*                                                                              *
+* COPYRIGHT (C) Aug, 2020 | Polash Majumdar                                    *
+*                                                                              *
+* This file is part of the Dew Drop Player project. The file content comes     *
+* "as is" without any warranty of definitive functionality. The author of the  *
+* code is not to be held liable for any improper functionality, broken code,   *
+* bug and otherwise unspecified error that might cause damage or might break   *
+* the application where this code is imported. In accordance with the          *
+* Zero-Clause BSD licence model of the Dew Drop project, the end-user/adopter  *
+* of this code is hereby granted the right to use, copy, modify, and/or        *
+* distribute this code with/without keeping this copyright notice.             *
+*                                                                              *
+* TL;DR - It's a free world. All of us should give back to the world that we   *
+*         get so much from. I have tried doing my part by making this code     *
+*         free (as in free beer). Have fun. Just don't vandalize the code      *
+*         or morph it into a malicious one.                                    *
+*                                                                              *
+*******************************************************************************/
+
+#include "../DewDropPlayerResource.h"
+#include <winver.h>
+
+IDI_DEWAPP      ICON        ".\\DewDropPlayer.ico"
+
+IDF_SYMBOL      RCDATA      ".\\DewDrop.ttf"
+
+IDIMG_THANKS    RCDATA      ".\\00.thanks.jpg"
+IDIMG_MPG       RCDATA      ".\\01.mpg123.jpg"
+IDIMG_MPC       RCDATA      ".\\02.musepack.jpg"
+IDIMG_OGG       RCDATA      ".\\03.ogg.jpg"
+IDIMG_OPUS      RCDATA      ".\\05.opus.jpg"
+IDIMG_FLAC      RCDATA      ".\\06.flac.jpg"
+IDIMG_APE       RCDATA      ".\\07.ape.jpg"
+IDIMG_WV        RCDATA      ".\\12.wv.png"
+IDIMG_TAG       RCDATA      ".\\14.taglib.png"
+IDIMG_SO        RCDATA      ".\\18.stackoverflow.jpg"
+IDIMG_FF        RCDATA      ".\\20.fontforge.png"
+
+
+// IMPORTANT! Please read the notes beside 'FILEVERSION' and 'PRODUCTVERSION'
+// Thumb rule:
+// 1. Making changes to the '_theme' member structure of the DEWTHEME class:
+//    Definitely change the 'FILEVERSION'. If you are not changing that structure
+//    do NOT alter this version
+// 2. Making any other changes (including changes unrelated to the '_theme'
+//    member structure of the DEWTHEME class):
+//    Change the 'PRODUCTVERSION'. Again, do NOT alter 'FILEVERSION' if you
+//    are not altering the '_theme' member structure of the DEWTHEME class.
+1 VERSIONINFO
+FILEVERSION     0, 7, 0, 0  // Change this ONLY if you are altering the '_theme' member structure of the DEWTHEME class!
+PRODUCTVERSION  1, 3, 0, 2363  // This is independent. Changes to the Settings and Engine qualifies changes here
+FILEOS          VOS_UNKNOWN
+FILETYPE        VFT_UNKNOWN
+FILESUBTYPE     VFT2_UNKNOWN
+FILEFLAGSMASK   0x00000000
+FILEFLAGS       0x00000000
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040901B5"
+        {
+            VALUE "Comments", "Dew Drop Player"
+            VALUE "CompanyName", "Thought Softwares"
+            VALUE "FileDescription", "Dew Drop Player"
+            VALUE "FileVersion", "0.7.0.0"
+            VALUE "InternalName", "DewDropPlayer"
+            VALUE "LegalCopyright", "Zero-Clause BSD"
+            VALUE "LegalTrademarks", "Open Source"
+            VALUE "OriginalFilename", "DewDropPlayer.exe"
+            VALUE "PrivateBuild", "2363"    // Same as 'PRODUCTVERSION above
+            VALUE "ProductName", "Dew Drop Player"
+            VALUE "ProductVersion", "1.3.0.2363" // Same as 'PRODUCTVERSION' above
+            VALUE "SpecialBuild", "2363" // Same as 'PRODUCTVERSION' above
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0409, 0x01B5
+    }
+}

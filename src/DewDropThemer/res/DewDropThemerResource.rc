@@ -1,0 +1,72 @@
+/*******************************************************************************
+*                                                                              *
+* COPYRIGHT (C) Aug, 2020 | Polash Majumdar                                    *
+*                                                                              *
+* This file is part of the Dew Drop Player project. The file content comes     *
+* "as is" without any warranty of definitive functionality. The author of the  *
+* code is not to be held liable for any improper functionality, broken code,   *
+* bug and otherwise unspecified error that might cause damage or might break   *
+* the application where this code is imported. In accordance with the          *
+* Zero-Clause BSD licence model of the Dew Drop project, the end-user/adopter  *
+* of this code is hereby granted the right to use, copy, modify, and/or        *
+* distribute this code with/without keeping this copyright notice.             *
+*                                                                              *
+* TL;DR - It's a free world. All of us should give back to the world that we   *
+*         get so much from. I have tried doing my part by making this code     *
+*         free (as in free beer). Have fun. Just don't vandalize the code      *
+*         or morph it into a malicious one.                                    *
+*                                                                              *
+*******************************************************************************/
+
+#include "DewDropThemerResource.h"
+#include <winver.h>
+
+// Main App Icon
+IDI_APP_THEMER              ICON    ".\\res\\DewDropThemer.ico"
+
+// Button Icons
+IDI_THEMER_BROWSE           ICON    ".\\res\\Browse.ico"
+IDI_THEMER_RESET_IMAGE      ICON    ".\\res\\ResetImages.ico"
+IDI_THEMER_PASSWORD         ICON    ".\\res\\Password.ico"
+IDI_THEMER_CLOSE            ICON    ".\\res\\Cancel.ico"
+IDI_THEMER_OK               ICON    ".\\res\\OK.ico"
+
+IDMF_THEMER     MANIFEST    ".\\DewDropThemer.manifest"
+IDF_SYMBOL      RCDATA      "..\\DewDropPlayer\\ui\\res\\DewDrop.ttf"
+
+// IMPORTANT! Change both the 'FILEVERSION' and 'PRODUCTVERSION'
+// if you are making any change to the '_theme' member structure
+// of the DEWTHEME class. Otherwise, it will allow loading of outdated
+// Theme files causing unexpected behavior and/or crashes!
+1 VERSIONINFO
+FILEVERSION     0, 7, 0, 0  // <- This *MUST* match 'PRODUCTVERSION' of Themer & 'FILEVERSION' of Player!
+PRODUCTVERSION  0, 7, 0, 0  // <- This *MUST* match 'FILEVERSION' of Themer & 'FILEVERSION' of Player!
+FILEOS          VOS_UNKNOWN
+FILETYPE        VFT_UNKNOWN
+FILESUBTYPE     VFT2_UNKNOWN
+FILEFLAGSMASK   0x00000000
+FILEFLAGS       0x00000000
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040901B5"
+        {
+            VALUE "Comments", "Dew Drop Themer"
+            VALUE "CompanyName", "Thought Softwares"
+            VALUE "FileDescription", "Dew Drop Player Themer"
+            VALUE "FileVersion", "0.7.0.0"
+            VALUE "InternalName", "DewDropThemer"
+            VALUE "LegalCopyright", "Zero-Clause BSD"
+            VALUE "LegalTrademarks", "Open Source"
+            VALUE "OriginalFilename", "DewDropThemer.exe"
+            VALUE "PrivateBuild", "216"
+            VALUE "ProductName", "Dew Drop Themer"
+            VALUE "ProductVersion", "0.7.0.0"
+            VALUE "SpecialBuild", "216"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0409, 0x01B5
+    }
+}
